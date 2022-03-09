@@ -8,6 +8,7 @@ namespace Vending_Machine.Models
     {
         public bool WithExtraCream { get; set; }
         public string Size { get; set; }
+        
 
     }
 }

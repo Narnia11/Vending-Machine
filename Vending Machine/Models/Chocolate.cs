@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Vending_Machine.Models
 {
-    class Sandwich : Products
+    class Chocolate : Products
     {
-        public bool ExtraSauce { get; set; }
-        public string Size { get; set; }
+        public bool Diet { get; set; }
+        public string Brand { get; set; }
     }
 }

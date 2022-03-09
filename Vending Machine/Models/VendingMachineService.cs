@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Vending_Machine.Models
 {
-    class Sandwich : Products
+    class VendingMachineService : IVending
     {
-        public bool ExtraSauce { get; set; }
-        public string Size { get; set; }
+
     }
 }
