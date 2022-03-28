@@ -4,20 +4,18 @@ using System.Text;
 
 namespace Vending_Machine.Models
 {
-    public abstract class Products
+    public abstract class Product
     {
-        public abstract void Examine(string uniqueData);
 
-        public abstract void Use();
+        public int Id { get; set; }
+        public string Name { get; set; }
 
-
-        public string Name { get; set; }       
-
-        public string Id { get; set; }
-        
         public int Cost { get; set; }
 
+        public abstract Product Examine();
 
+        public abstract string Use();
 
     }
 }
+
